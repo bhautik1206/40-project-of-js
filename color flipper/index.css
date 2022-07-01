@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+ 
+}
+.container{
+    text-align: center;
+}
+
+.container h2{
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+.color{
+    color: hsl(205, 80%, 60%);
+}
+main{
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center; 
+}
+.btn-calss {
+    font-family: "Ranchers", sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+  }
+  .btn-calss:hover {
+    color: #fff;
+    background: #222;
+  }
+  

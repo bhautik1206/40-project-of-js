@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2>digital clock</h2>
+        <div class="clock">
+            <div >
+                <span id="Hour">00</span>
+                <span class="text">Hour</span>
+            </div>
+            <div >
+                <span id="minutes">00</span>
+                <span class="text">Minutes</span>
+            </div>
+            <div >
+                <span id="second">00</span>
+                <span class="text">Second</span>
+            </div>
+            <div>
+                <span id="ampm">AM</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script>
+        const hour2=document.getElementById("Hour");
+        const min2=document.getElementById("minutes");
+        const sec2=document.getElementById("second");
+        const ap2=document.getElementsById("ampm");
+        function mytime(){
+            let h=new Date().getHours();
+            let m=new Date().getMinutes();
+            let s=new Date().getSeconds();
+            let ampm="AM";
+            if(h>12){
+                h=h-12;
+                ampm="PM"
+            }
+            h=h < 10 ? "0" + h : h;
+            m=m < 10 ? "0" + m : m;
+            s=s < 10 ? "0" + s : s;
+            hour2.innerText=h;
+            min2.innerText=m;
+            sec2.innerText=s;
+            ap2.innerHTML=ampm;
+            setTimeout(() => {
+                mytime()
+            }, 1000);
+        }
+        mytime();
+    </script> -->
+</body>
+</html>

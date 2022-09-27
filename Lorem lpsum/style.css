@@ -1,0 +1,35 @@
+body{
+    margin:auto;
+    background-color: aliceblue;
+}
+
+h3{
+    text-align: center;
+    font-size: 44px;
+    text-transform:uppercase;
+}
+.lorem-form{
+    text-align: center;
+    font-size: 22px;
+}
+input{
+    font-size: 22px;
+}
+.amount{
+    width: 70px;
+}
+.btn{
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(94, 94, 142);
+    color: white;
+}
+.lorem-text{
+    margin: 0 200px;
+}

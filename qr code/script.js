@@ -3,7 +3,7 @@ var qr;
         qr = new QRious({
         element: document.getElementById('qr-code'),
         size: 200,
-        value: 'https://studytonight.com'
+        value: 'https://xnxx.com'
     });
 })();
             

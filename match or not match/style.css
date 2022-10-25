@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 35%;
+}
+.btn{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    background-color: #008591;
+}
+.btn:hover{
+    background-color: #C4FCEF;
+    color: #250E61;
+    font-size: 34px;
+    width: 120px;
+    height: 120px;
+}
+#text{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 60%;
+    font-size: 32px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
